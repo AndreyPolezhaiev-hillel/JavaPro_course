@@ -1,0 +1,27 @@
+@startuml
+
+class Animal{
+    +amount: static int
+    -name: String
+    +swim()
+    +run()
+}
+
+class Cat{
+    +amount: static int
+    -name: String
+    +swim() //override
+    +run() //override
+}
+
+class Dog{
+    + amount: static int
+    -name: String
+    +swim() //override
+    +run()  //override
+}
+
+Animal <|-- Cat
+Animal <|-- Dog
+
+@enduml
