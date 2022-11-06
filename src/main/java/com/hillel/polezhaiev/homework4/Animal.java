@@ -2,7 +2,7 @@ package main.java.com.hillel.polezhaiev.homework4;
 
 public class Animal {
 
-    public static int amount;
+    private static int amount;
     private String name;
 
     public Animal(String name){
@@ -12,6 +12,10 @@ public class Animal {
 
     public String getName() {
         return name;
+    }
+
+    public static int getAmount() {
+        return amount;
     }
 
     public void swim(int length){

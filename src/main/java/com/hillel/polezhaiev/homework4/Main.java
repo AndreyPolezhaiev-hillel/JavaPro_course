@@ -10,13 +10,6 @@ public class Main {
         Animal dog = new Dog("Rex");
         Animal dog1 = new Dog("Rex");
 
-        Animal chicken = new Animal("Po");
-        Animal chicken1 = new Animal("Po");
-        Animal chicken2 = new Animal("Po");
-        Animal chicken3 = new Animal("Po");
-        Animal chicken4 = new Animal("Po");
-        Animal chicken5 = new Animal("Po");
-
         cat.swim(300);
         cat.run(300);
         cat.run(-122);
@@ -30,14 +23,9 @@ public class Main {
 
         System.out.println();
 
-        chicken.swim(25);
-        chicken.run(456);
-
-        System.out.println();
-
-        System.out.println("Cats' amount " + Cat.amount);
-        System.out.println("Dogs' amount " + Dog.amount);
-        System.out.println("Animals' amount " + Animal.amount);
+        System.out.println("Cats' amount " + Cat.getAmount());
+        System.out.println("Dogs' amount " + Dog.getAmount());
+        System.out.println("Animals' amount " + Animal.getAmount());
 
         System.out.println();
         System.out.println(cat.getName());

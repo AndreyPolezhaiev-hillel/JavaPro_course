@@ -2,11 +2,15 @@ package main.java.com.hillel.polezhaiev.homework4;
 
 public class Cat extends Animal{
 
-    public static int amount;
+    private static int amount;
 
     public Cat(String name) {
         super(name);
         amount++;
+    }
+
+    public static int getAmount() {
+        return amount;
     }
 
     @Override
