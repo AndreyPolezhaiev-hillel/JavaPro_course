@@ -38,5 +38,8 @@ public class Main {
         System.out.println("Cats' amount " + Cat.amount);
         System.out.println("Dogs' amount " + Dog.amount);
         System.out.println("Animals' amount " + Animal.amount);
+
+        System.out.println();
+        System.out.println(cat.getName());
     }
 }

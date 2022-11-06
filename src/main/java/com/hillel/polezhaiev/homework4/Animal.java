@@ -10,6 +10,10 @@ public class Animal {
         amount++;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void swim(int length){
         if(length < 0){
             System.out.println(name + " swam 0m");
